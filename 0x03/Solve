@@ -1,0 +1,15 @@
+# Bài 1
+Cơ bản về `Basic Auth`
+https://ksnctf.sweetduet.info/problem/8
+
+- Download file pcap và mở bằng Wire Shark:
+- Trong gói tin (số 13) HTTP - 502 /~q8/ HTTP/1.1 có chứa Flag:
+    + Hypertext Tranfer Protocol:
+    Authorization: Basic cTg6RkxBR181dXg3eksyTktTSDhmU0dB
+    Credentials:  q8:FLAG_5ux7zK2NKSH8fSGA
+
+
+
+# Bài 2
+Level nâng cao
+https://ksnctf.sweetduet.info/problem/9
