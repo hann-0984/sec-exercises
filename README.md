@@ -18,7 +18,7 @@
   - [X] Ex 1
 - [ ] [0x01 - Encoding](0x01)
   - [X] Ex 1
-  - [X] Ex 2
+  - [ ] Ex 2
   - [X] Ex 3
   - [ ] Ex 4
   - [X] Ex 5
