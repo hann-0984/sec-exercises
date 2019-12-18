@@ -14,18 +14,16 @@ Tự viết hàm `my_base64_encode` và `my_base64_decode` bằng ngôn ngữ t�
 
 
 # Bài 3
-Giải bài CTF sau:
-https://ksnctf.sweetduet.info/problem/2
+Giải bài CTF sau: https://ksnctf.sweetduet.info/problem/2
 Truy cập link sau để decode: https://www.dcode.fr/caesar-cipher
 Được kết quả : FLAGSwzgxBJSAMqwxxAU
 
 
 # Bài 4
-Giải bài CTF sau:
-https://ksnctf.sweetduet.info/problem/5
+Giải bài CTF sau: https://ksnctf.sweetduet.info/problem/5
 
 
-# Bài 5
+# Bài 5 
 Source: `Mates CTF 2019`
 Giải mã chuỗi sau: `NVQXIZLTMN2GM63XGNWGGMDNGNPXI327ORUDGX3GGFXDI3C7OIYHK3TEPU`
 - Base32 decode (https://emn178.github.io/online-tools/base32_decode.html), được Flag:
