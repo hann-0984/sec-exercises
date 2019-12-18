@@ -11,11 +11,15 @@ http://ksnctf.sweetduet.info/problem/32
  - Submit query: password[]=1
  - Get Flag:  FLAG_VQcTWEK7zZYzvLhX
 
-# Bài 3
 
+# Bài 3
 http://ksnctf.sweetduet.info/problem/31
 
-# Bài 4
 
+# Bài 4
 http://ksnctf.sweetduet.info/problem/35
+- View soure, thấy : sqlite:database.db
+- sqlite> select * from user , lấy được Flag:
+  root|FLAG_iySDmApNegJvwmxN
+
 
