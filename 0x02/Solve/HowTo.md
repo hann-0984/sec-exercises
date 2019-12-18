@@ -19,11 +19,11 @@ http://ksnctf.sweetduet.info/problem/31
   Mảng shipname chứa 11 phần tử, mỗi lần nhấn button Gacha, sẽ thấy random ra 1 phần tử trong shipname
 - Tuy nhiên hàm random: $ship[] = mt_rand(0, count($shipname)-2); chỉ random đến phần tử thứ 10, phần tử thứ 11 chính là Flag
 - Cần sửa giá trị signature trong cookie cho đúng, sử dụng Hashpump:
-        Input signature: 24b7447578c89ea8f5f8854d60e253f23bb5b8856d8a135c19af423db354ac60a1a4c932cecd80
+      + Input signature: 24b7447578c89ea8f5f8854d60e253f23bb5b8856d8a135c19af423db354ac60a1a4c932cecd80
                          a0550211e8cc6e28e73e1ac93e7b9c786adc24702e48701c5 (signature ban đầu khi gancha)
-        Input data        : 1 (giá trị của ship trong cookie)
-        Input key length  : 21 (Word Counter đoạn : FLAG_????????????????)
-        Input Data to add : ,10 (theo format của đoạn code: $ship = explode(',', $_COOKIE['ship'])
+      + Input data        : 1 (giá trị của ship trong cookie)
+      + Input key length  : 21 (Word Counter đoạn : FLAG_????????????????)
+      + Input Data to add : ,10 (theo format của đoạn code: $ship = explode(',', $_COOKIE['ship'])
                            trong đó 10 là index của yumato(Flag) )
     => Sau Hashpump:
 c9ef7bfe7acb622ecda2d108392d190a1540949652c72be0d49fca0946c3b15cbbd4c877b69ac90a3ef04de1b890a0527070e26b317e42bc6e37738b5a2de02d
