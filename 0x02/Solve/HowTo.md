@@ -19,5 +19,6 @@ http://ksnctf.sweetduet.info/problem/31
 # Bài 4
 http://ksnctf.sweetduet.info/problem/35
 - View soure, thấy : sqlite:database.db
+- Truy cập http://ksnctf.sweetduet.info/problem/35/database.db => lấy được database
 - sqlite> select * from user , lấy được Flag:
   root|FLAG_iySDmApNegJvwmxN
