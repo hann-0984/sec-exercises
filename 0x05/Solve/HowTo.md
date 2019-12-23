@@ -34,3 +34,13 @@ The flag is admin's password.
   </body>
 </html>
 ```
+
+=> Flag là mật khẩu của admin
+
+- Dùng Burp Suite để brute force ra mật khẩu của admin
+    + Dùng Intruder để lấy độ dài của pass: id=' OR LENGTH(pass)=§10§;--&pass=
+    => lấy được LENGTH(pass)=21 do khác biệt ở cột Length
+    + Tiếp tục dùng Intruder để lấy pass của admin: brute force(a-z0-9)
+    => lấy được flag kpwa4ji3uzk6trpk
+    + Thử các kí tự đặc biệt với phần tử còn trống, lấy được kí tự : _
+    + Login with user: admin & pass: flag_kpwa4ji3uzk6trpk
