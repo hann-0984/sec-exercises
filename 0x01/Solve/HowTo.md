@@ -15,17 +15,17 @@ Tự viết hàm `my_base64_encode` và `my_base64_decode` bằng ngôn ngữ t�
 
 # Bài 3
 Giải bài CTF sau: https://ksnctf.sweetduet.info/problem/2
-Truy cập link sau để decode: https://www.dcode.fr/caesar-cipher
-Được kết quả : FLAGSwzgxBJSAMqwxxAU
+- Truy cập link sau để decode: https://www.dcode.fr/caesar-cipher
+=> Được kết quả : FLAGSwzgxBJSAMqwxxAU
 
 
 # Bài 4
 Giải bài CTF sau: https://ksnctf.sweetduet.info/problem/5
-Decode base64 16 lần, ta được chuỗi sau:
+- Decode base64 16 lần, ta được chuỗi sau:
        begin 666 <data>
        51DQ!1U]&94QG4#-3:4%797I74$AU
        end
- Decode đoạn mã trên bằng  ta được Flag: 
+- Decode đoạn mã trên bằng  ta được Flag: 
        FLAG_FeLgP3SiAWezWPHu
 
 
