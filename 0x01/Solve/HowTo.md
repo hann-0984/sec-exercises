@@ -25,7 +25,7 @@ Giải bài CTF sau: https://ksnctf.sweetduet.info/problem/5
        begin 666 <data>
        51DQ!1U]&94QG4#-3:4%797I74$AU
        end
-- Decode đoạn mã trên bằng  ta được Flag: 
+- Decode đoạn mã trên bằng uuencode ta được Flag: 
        FLAG_FeLgP3SiAWezWPHu
 
 
